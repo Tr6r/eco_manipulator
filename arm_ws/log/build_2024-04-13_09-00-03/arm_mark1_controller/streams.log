@@ -1,0 +1,35 @@
+[0.209s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arm_mark1_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arm_mark1_controller
+[0.259s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.479s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.496s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.637s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.638s] -- Added test 'lint_cmake' to check CMake code style
+[0.638s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.642s] -- Added test 'xmllint' to check XML markup files
+[0.645s] -- Configuring done
+[0.653s] -- Generating done
+[0.654s] -- Build files have been written to: /home/dinhcuong/arm_ws/build/arm_mark1_controller
+[0.674s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arm_mark1_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arm_mark1_controller
+[0.675s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_controller -- -j8 -l8
+[0.739s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_controller -- -j8 -l8
+[0.773s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_controller
+[1.075s] -- Install configuration: ""
+[1.076s] -- Execute custom install script
+[1.076s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/config/arm_controller.yaml
+[1.076s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/launch/arm_controller.launch.py
+[1.076s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/ament_index/resource_index/package_run_dependencies/arm_mark1_controller
+[1.076s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/ament_index/resource_index/parent_prefix_path/arm_mark1_controller
+[1.077s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/environment/ament_prefix_path.sh
+[1.077s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/environment/ament_prefix_path.dsv
+[1.077s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/environment/path.sh
+[1.077s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/environment/path.dsv
+[1.077s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/local_setup.bash
+[1.077s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/local_setup.sh
+[1.077s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/local_setup.zsh
+[1.078s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/local_setup.dsv
+[1.078s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.dsv
+[1.078s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/ament_index/resource_index/packages/arm_mark1_controller
+[1.078s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/cmake/arm_mark1_controllerConfig.cmake
+[1.078s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/cmake/arm_mark1_controllerConfig-version.cmake
+[1.078s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.xml
+[1.195s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_controller

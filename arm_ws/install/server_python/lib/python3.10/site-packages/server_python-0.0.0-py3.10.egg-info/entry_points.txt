@@ -1,0 +1,4 @@
+[console_scripts]
+client = server_python.client:main
+server = server_python.server:main
+

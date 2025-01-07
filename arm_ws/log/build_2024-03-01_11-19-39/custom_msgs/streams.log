@@ -1,0 +1,23 @@
+[0.172s] Invoking command in '/home/dinhcuong/arm_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/custom_msgs -- -j8 -l8
+[0.208s] [  3%] Built target custom_msgs__cpp
+[0.209s] [ 12%] Built target custom_msgs__rosidl_generator_c
+[0.221s] [ 12%] Built target ament_cmake_python_copy_custom_msgs
+[0.232s] [ 22%] Built target custom_msgs__rosidl_typesupport_cpp
+[0.233s] [ 32%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[0.235s] [ 41%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[0.236s] [ 51%] Built target custom_msgs__rosidl_typesupport_c
+[0.237s] [ 61%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[0.239s] [ 70%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[0.254s] [ 70%] Built target custom_msgs
+[0.268s] [ 74%] Built target custom_msgs__py
+[0.284s] [ 80%] Built target custom_msgs__rosidl_generator_py
+[0.300s] [ 93%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.300s] [ 93%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[0.300s] [100%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[0.422s] running egg_info
+[0.423s] writing custom_msgs.egg-info/PKG-INFO
+[0.423s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[0.423s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[0.425s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[0.425s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[0.445s] [100%] Built target ament_cmake_python_build_custom_msgs_egg

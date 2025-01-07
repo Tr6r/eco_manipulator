@@ -1,0 +1,5 @@
+[0.058s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_moveit -- -j8 -l8
+[0.069s] [0mCMake Error: The source directory "/home/dinhcuong/arm_ws/arm_mark1_moveit" does not exist.
+[0.069s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.070s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.071s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_moveit -- -j8 -l8

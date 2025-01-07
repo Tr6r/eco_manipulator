@@ -1,0 +1,6 @@
+Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arm_mark1_controller -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arm_mark1_controller
+Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arm_mark1_controller -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arm_mark1_controller
+Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_controller -- -j8 -l8
+Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_controller -- -j8 -l8
+Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_controller
+Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_controller

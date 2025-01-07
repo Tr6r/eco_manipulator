@@ -1,0 +1,24 @@
+[0.640s] Invoking command in '/home/dinhcuong/arm_ws/src/server_python': CMAKE_PREFIX_PATH=/home/dinhcuong/arm_ws/install/custom_msgs:/home/dinhcuong/install/custom_msgs:/home/dinhcuong/install/arm_mark1_moveit:/home/dinhcuong/install/arm_mark1_controller:/home/dinhcuong/install/arm_mark1:/home/dinhcuong/arm_ws/install/arm_mark1_moveit:/home/dinhcuong/arm_ws/install/arm_mark1_controller:/home/dinhcuong/arm_ws/install/arm_mark1 LD_LIBRARY_PATH=/home/dinhcuong/arm_ws/install/custom_msgs/lib:/home/dinhcuong/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/dinhcuong/arm_ws/build/server_python/prefix_override:/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_python build --build-base /home/dinhcuong/arm_ws/build/server_python/build install --record /home/dinhcuong/arm_ws/build/server_python/install.log --single-version-externally-managed
+[0.840s] running egg_info
+[0.841s] writing ../../build/server_python/server_python.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/server_python/server_python.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/server_python/server_python.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/server_python/server_python.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/server_python/server_python.egg-info/top_level.txt
+[0.843s] reading manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+[0.844s] writing manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+[0.844s] running build
+[0.844s] running build_py
+[0.844s] running install
+[0.844s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.844s]   warnings.warn(
+[0.845s] running install_lib
+[0.845s] running install_data
+[0.846s] running install_egg_info
+[0.847s] removing '/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python-0.0.0-py3.10.egg-info' (and everything under it)
+[0.847s] Copying ../../build/server_python/server_python.egg-info to /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python-0.0.0-py3.10.egg-info
+[0.848s] running install_scripts
+[0.865s] Installing client script to /home/dinhcuong/arm_ws/install/server_python/lib/server_python
+[0.865s] Installing server script to /home/dinhcuong/arm_ws/install/server_python/lib/server_python
+[0.866s] writing list of installed files to '/home/dinhcuong/arm_ws/build/server_python/install.log'
+[0.886s] Invoked command in '/home/dinhcuong/arm_ws/src/server_python' returned '0': CMAKE_PREFIX_PATH=/home/dinhcuong/arm_ws/install/custom_msgs:/home/dinhcuong/install/custom_msgs:/home/dinhcuong/install/arm_mark1_moveit:/home/dinhcuong/install/arm_mark1_controller:/home/dinhcuong/install/arm_mark1:/home/dinhcuong/arm_ws/install/arm_mark1_moveit:/home/dinhcuong/arm_ws/install/arm_mark1_controller:/home/dinhcuong/arm_ws/install/arm_mark1 LD_LIBRARY_PATH=/home/dinhcuong/arm_ws/install/custom_msgs/lib:/home/dinhcuong/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/dinhcuong/arm_ws/build/server_python/prefix_override:/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_python build --build-base /home/dinhcuong/arm_ws/build/server_python/build install --record /home/dinhcuong/arm_ws/build/server_python/install.log --single-version-externally-managed

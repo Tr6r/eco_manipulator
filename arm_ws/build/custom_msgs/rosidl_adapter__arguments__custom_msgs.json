@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/dinhcuong/arm_ws/src/custom_msgs:srv/AddVariable.srv"
+  ]
+}

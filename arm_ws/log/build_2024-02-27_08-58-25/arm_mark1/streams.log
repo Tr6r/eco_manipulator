@@ -1,0 +1,42 @@
+[0.062s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arm_mark1 -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arm_mark1
+[0.219s] -- The C compiler identification is GNU 11.4.0
+[0.311s] -- The CXX compiler identification is GNU 11.4.0
+[0.320s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.404s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.488s] -- Detecting CXX compiler ABI info - done
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.498s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.503s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.661s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.756s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.837s] -- Added test 'lint_cmake' to check CMake code style
+[0.838s] -- Added test 'xmllint' to check XML markup files
+[0.839s] -- Configuring done
+[0.841s] -- Generating done
+[0.842s] -- Build files have been written to: /home/dinhcuong/arm_ws/build/arm_mark1
+[0.846s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arm_mark1 -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arm_mark1
+[0.848s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1 -- -j8 -l8
+[0.883s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1 -- -j8 -l8
+[0.911s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1
+[0.919s] -- Install configuration: ""
+[0.919s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/ament_index/resource_index/package_run_dependencies/arm_mark1
+[0.919s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/ament_index/resource_index/parent_prefix_path/arm_mark1
+[0.919s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/environment/ament_prefix_path.sh
+[0.919s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/environment/ament_prefix_path.dsv
+[0.920s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/environment/path.sh
+[0.920s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/environment/path.dsv
+[0.920s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/local_setup.bash
+[0.920s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/local_setup.sh
+[0.920s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/local_setup.zsh
+[0.920s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/local_setup.dsv
+[0.920s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.dsv
+[0.921s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/ament_index/resource_index/packages/arm_mark1
+[0.921s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/cmake/arm_mark1Config.cmake
+[0.921s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/cmake/arm_mark1Config-version.cmake
+[0.921s] -- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.xml
+[0.923s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1

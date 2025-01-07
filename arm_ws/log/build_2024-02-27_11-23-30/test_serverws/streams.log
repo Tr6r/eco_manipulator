@@ -1,0 +1,26 @@
+[0.591s] Invoking command in '/home/dinhcuong/arm_ws/src/test_serverws': PYTHONPATH=/home/dinhcuong/arm_ws/build/test_serverws/prefix_override:/home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_serverws build --build-base /home/dinhcuong/arm_ws/build/test_serverws/build install --record /home/dinhcuong/arm_ws/build/test_serverws/install.log --single-version-externally-managed
+[0.770s] running egg_info
+[0.771s] writing ../../build/test_serverws/test_serverws.egg-info/PKG-INFO
+[0.771s] writing dependency_links to ../../build/test_serverws/test_serverws.egg-info/dependency_links.txt
+[0.771s] writing entry points to ../../build/test_serverws/test_serverws.egg-info/entry_points.txt
+[0.771s] writing requirements to ../../build/test_serverws/test_serverws.egg-info/requires.txt
+[0.771s] writing top-level names to ../../build/test_serverws/test_serverws.egg-info/top_level.txt
+[0.773s] reading manifest file '../../build/test_serverws/test_serverws.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/test_serverws/test_serverws.egg-info/SOURCES.txt'
+[0.774s] running build
+[0.774s] running build_py
+[0.774s] copying test_serverws/publish.py -> /home/dinhcuong/arm_ws/build/test_serverws/build/lib/test_serverws
+[0.774s] running install
+[0.774s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.774s]   warnings.warn(
+[0.774s] running install_lib
+[0.775s] copying /home/dinhcuong/arm_ws/build/test_serverws/build/lib/test_serverws/publish.py -> /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws
+[0.775s] byte-compiling /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws/publish.py to publish.cpython-310.pyc
+[0.776s] running install_data
+[0.776s] running install_egg_info
+[0.778s] removing '/home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws-0.0.0-py3.10.egg-info' (and everything under it)
+[0.778s] Copying ../../build/test_serverws/test_serverws.egg-info to /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws-0.0.0-py3.10.egg-info
+[0.779s] running install_scripts
+[0.794s] Installing publish script to /home/dinhcuong/arm_ws/install/test_serverws/lib/test_serverws
+[0.794s] writing list of installed files to '/home/dinhcuong/arm_ws/build/test_serverws/install.log'
+[0.812s] Invoked command in '/home/dinhcuong/arm_ws/src/test_serverws' returned '0': PYTHONPATH=/home/dinhcuong/arm_ws/build/test_serverws/prefix_override:/home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_serverws build --build-base /home/dinhcuong/arm_ws/build/test_serverws/build install --record /home/dinhcuong/arm_ws/build/test_serverws/install.log --single-version-externally-managed

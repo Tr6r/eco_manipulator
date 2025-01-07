@@ -1,0 +1,24 @@
+[0.622s] Invoking command in '/home/dinhcuong/arm_ws/src/server_python': PYTHONPATH=/home/dinhcuong/arm_ws/build/server_python/prefix_override:/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_python build --build-base /home/dinhcuong/arm_ws/build/server_python/build install --record /home/dinhcuong/arm_ws/build/server_python/install.log --single-version-externally-managed
+[0.830s] running egg_info
+[0.831s] writing ../../build/server_python/server_python.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../../build/server_python/server_python.egg-info/dependency_links.txt
+[0.832s] writing entry points to ../../build/server_python/server_python.egg-info/entry_points.txt
+[0.832s] writing requirements to ../../build/server_python/server_python.egg-info/requires.txt
+[0.832s] writing top-level names to ../../build/server_python/server_python.egg-info/top_level.txt
+[0.833s] reading manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+[0.834s] writing manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+[0.834s] running build
+[0.834s] running build_py
+[0.834s] running install
+[0.834s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.834s]   warnings.warn(
+[0.834s] running install_lib
+[0.835s] running install_data
+[0.836s] running install_egg_info
+[0.837s] removing '/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python-0.0.0-py3.10.egg-info' (and everything under it)
+[0.837s] Copying ../../build/server_python/server_python.egg-info to /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python-0.0.0-py3.10.egg-info
+[0.838s] running install_scripts
+[0.855s] Installing client script to /home/dinhcuong/arm_ws/install/server_python/lib/server_python
+[0.855s] Installing server script to /home/dinhcuong/arm_ws/install/server_python/lib/server_python
+[0.855s] writing list of installed files to '/home/dinhcuong/arm_ws/build/server_python/install.log'
+[0.875s] Invoked command in '/home/dinhcuong/arm_ws/src/server_python' returned '0': PYTHONPATH=/home/dinhcuong/arm_ws/build/server_python/prefix_override:/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_python build --build-base /home/dinhcuong/arm_ws/build/server_python/build install --record /home/dinhcuong/arm_ws/build/server_python/install.log --single-version-externally-managed

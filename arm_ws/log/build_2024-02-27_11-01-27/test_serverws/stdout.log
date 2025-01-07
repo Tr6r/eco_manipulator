@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/test_serverws/test_serverws.egg-info
+writing ../../build/test_serverws/test_serverws.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_serverws/test_serverws.egg-info/dependency_links.txt
+writing entry points to ../../build/test_serverws/test_serverws.egg-info/entry_points.txt
+writing requirements to ../../build/test_serverws/test_serverws.egg-info/requires.txt
+writing top-level names to ../../build/test_serverws/test_serverws.egg-info/top_level.txt
+writing manifest file '../../build/test_serverws/test_serverws.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_serverws/test_serverws.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_serverws/test_serverws.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dinhcuong/arm_ws/build/test_serverws/build
+creating /home/dinhcuong/arm_ws/build/test_serverws/build/lib
+creating /home/dinhcuong/arm_ws/build/test_serverws/build/lib/test_serverws
+copying test_serverws/__init__.py -> /home/dinhcuong/arm_ws/build/test_serverws/build/lib/test_serverws
+copying test_serverws/publish.py -> /home/dinhcuong/arm_ws/build/test_serverws/build/lib/test_serverws
+running install
+running install_lib
+creating /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws
+copying /home/dinhcuong/arm_ws/build/test_serverws/build/lib/test_serverws/__init__.py -> /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws
+copying /home/dinhcuong/arm_ws/build/test_serverws/build/lib/test_serverws/publish.py -> /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws
+byte-compiling /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws/publish.py to publish.cpython-310.pyc
+running install_data
+creating /home/dinhcuong/arm_ws/install/test_serverws/share/ament_index
+creating /home/dinhcuong/arm_ws/install/test_serverws/share/ament_index/resource_index
+creating /home/dinhcuong/arm_ws/install/test_serverws/share/ament_index/resource_index/packages
+copying resource/test_serverws -> /home/dinhcuong/arm_ws/install/test_serverws/share/ament_index/resource_index/packages
+copying package.xml -> /home/dinhcuong/arm_ws/install/test_serverws/share/test_serverws
+running install_egg_info
+Copying ../../build/test_serverws/test_serverws.egg-info to /home/dinhcuong/arm_ws/install/test_serverws/lib/python3.10/site-packages/test_serverws-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dinhcuong/arm_ws/build/test_serverws/install.log'

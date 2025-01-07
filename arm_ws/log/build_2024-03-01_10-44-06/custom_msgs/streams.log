@@ -1,0 +1,221 @@
+[0.132s] Invoking command in '/home/dinhcuong/arm_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/custom_msgs
+[0.143s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.262s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.264s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.270s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.336s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.531s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.847s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.866s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.867s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.886s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.886s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.886s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.886s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.902s] -- Found PythonExtra: .so  
+[0.925s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.941s] -- Added test 'lint_cmake' to check CMake code style
+[0.942s] -- Added test 'xmllint' to check XML markup files
+[0.944s] -- Configuring done
+[0.962s] -- Generating done
+[0.964s] -- Build files have been written to: /home/dinhcuong/arm_ws/build/custom_msgs
+[0.969s] Invoked command in '/home/dinhcuong/arm_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/custom_msgs
+[0.970s] Invoking command in '/home/dinhcuong/arm_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/custom_msgs -- -j8 -l8
+[0.996s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.003s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.009s] [  6%] Built target ament_cmake_python_copy_custom_msgs
+[1.205s] running egg_info
+[1.206s] creating custom_msgs.egg-info
+[1.206s] writing custom_msgs.egg-info/PKG-INFO
+[1.206s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[1.206s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[1.206s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.208s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.208s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.234s] [  6%] Built target ament_cmake_python_build_custom_msgs_egg
+[1.244s] [  9%] Built target custom_msgs__cpp
+[1.244s] [  9%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/srv/detail/add_variable__functions.c.o[0m
+[1.250s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.251s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.251s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.289s] [ 22%] [32m[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so[0m
+[1.315s] [ 22%] Built target custom_msgs__rosidl_generator_c
+[1.322s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.324s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.324s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.460s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/srv/add_variable__type_support.cpp.o[0m
+[1.538s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/srv/add_variable__type_support.cpp.o[0m
+[1.562s] [ 41%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so[0m
+[1.585s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/srv/detail/add_variable__type_support.cpp.o[0m
+[1.599s] [ 45%] Built target custom_msgs__rosidl_typesupport_c
+[1.609s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/srv/detail/dds_fastrtps/add_variable__type_support.cpp.o[0m
+[1.681s] [ 51%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so[0m
+[1.713s] [ 51%] Built target custom_msgs__rosidl_typesupport_cpp
+[1.717s] [ 54%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/srv/detail/add_variable__type_support_c.cpp.o[0m
+[1.717s] [ 58%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/srv/detail/add_variable__type_support.c.o[0m
+[1.743s] [ 61%] [32m[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.765s] [ 61%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[1.891s] [ 64%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.923s] [ 64%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[1.928s] [ 67%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.988s] [ 70%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.988s] [ 70%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[2.041s] [ 70%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[2.054s] [ 70%] Built target custom_msgs
+[2.068s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.381s] [ 74%] Built target custom_msgs__py
+[2.396s] [ 77%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/srv/_add_variable_s.c.o[0m
+[2.471s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so[0m
+[2.498s] [ 80%] Built target custom_msgs__rosidl_generator_py
+[2.512s] [ 90%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.512s] [ 90%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.512s] [ 90%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.581s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.583s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.585s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.609s] [100%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[2.610s] [100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[2.614s] [100%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.621s] Invoked command in '/home/dinhcuong/arm_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/custom_msgs -- -j8 -l8
+[2.656s] Invoking command in '/home/dinhcuong/arm_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/custom_msgs
+[2.662s] -- Install configuration: ""
+[2.662s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[2.662s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[2.662s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[2.662s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/add_variable.h
+[2.662s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[2.662s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__functions.c
+[2.662s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__struct.h
+[2.663s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__type_support.h
+[2.663s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__functions.h
+[2.663s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[2.663s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.663s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[2.663s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[2.663s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[2.663s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""
+[2.663s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[2.663s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[2.663s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[2.664s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__rosidl_typesupport_fastrtps_c.h
+[2.664s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[2.664s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.664s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[2.664s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.664s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[2.664s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[2.664s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/add_variable.hpp
+[2.664s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[2.664s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__struct.hpp
+[2.664s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__builder.hpp
+[2.664s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__traits.hpp
+[2.664s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[2.664s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[2.665s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[2.665s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__rosidl_typesupport_fastrtps_cpp.hpp
+[2.665s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/dds_fastrtps
+[2.665s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[2.665s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.665s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.665s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.665s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[2.665s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[2.665s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[2.665s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__rosidl_typesupport_introspection_c.h
+[2.665s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__type_support.c
+[2.665s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[2.665s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.665s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[2.665s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.666s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[2.666s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""
+[2.666s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[2.666s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv
+[2.666s] -- Up-to-date: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail
+[2.666s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__type_support.cpp
+[2.666s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_variable__rosidl_typesupport_introspection_cpp.hpp
+[2.666s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[2.666s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.666s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[2.666s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""
+[2.666s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[2.666s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.667s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[2.668s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.668s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.668s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv
+[2.668s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/__init__.py
+[2.668s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_variable_s.c
+[2.668s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_variable.py
+[2.694s] Listing '/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...
+[2.694s] Compiling '/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...
+[2.694s] Listing '/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv'...
+[2.694s] Compiling '/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/__init__.py'...
+[2.694s] Compiling '/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_variable.py'...
+[2.697s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.697s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.697s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.697s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.697s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.698s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.698s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[2.698s] -- Set runtime path of "/home/dinhcuong/arm_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""
+[2.698s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/srv/AddVariable.idl
+[2.698s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/srv/AddVariable.srv
+[2.698s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/srv/AddVariable_Request.msg
+[2.698s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/srv/AddVariable_Response.msg
+[2.698s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[2.698s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/environment/path.sh
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/local_setup.bash
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/local_setup.sh
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.dsv
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[2.699s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.700s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.701s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.702s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.702s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[2.702s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[2.702s] -- Installing: /home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.xml
+[2.704s] Invoked command in '/home/dinhcuong/arm_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/custom_msgs

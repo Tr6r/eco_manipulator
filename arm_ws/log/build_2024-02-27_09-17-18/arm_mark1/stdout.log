@@ -1,0 +1,38 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dinhcuong/arm_ws/build/arm_mark1
+-- Install configuration: ""
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/plate.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/left_finger.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/round_plate.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/horizontal_arm.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/vertical_drive_arm.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/triangular_link.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/servo_plate.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/forward_drive_arm.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/claw_support.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/base_plate.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/basement.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/meshes/right_finger.STL
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/urdf
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/urdf/arm.urdf.xacro
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/ament_index/resource_index/package_run_dependencies/arm_mark1
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/ament_index/resource_index/parent_prefix_path/arm_mark1
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/environment/ament_prefix_path.sh
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/environment/path.sh
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/environment/path.dsv
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/local_setup.bash
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/local_setup.sh
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/local_setup.zsh
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/local_setup.dsv
+-- Installing: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.dsv
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/ament_index/resource_index/packages/arm_mark1
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/cmake/arm_mark1Config.cmake
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/cmake/arm_mark1Config-version.cmake
+-- Up-to-date: /home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.xml

@@ -1,0 +1,116 @@
+[4.368s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/dinhcuong/arm_ws']
+[4.368s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/dinhcuong/arm_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f76f9b57820>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f76f9b61fc0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f76f9b61fc0>>)
+[4.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.557s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dinhcuong/arm_ws'
+[4.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extensions ['ignore', 'ignore_ament_install']
+[4.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extension 'ignore'
+[4.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extension 'ignore_ament_install'
+[4.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extensions ['colcon_pkg']
+[4.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extension 'colcon_pkg'
+[4.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extensions ['colcon_meta']
+[4.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extension 'colcon_meta'
+[4.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extensions ['ros']
+[4.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extension 'ros'
+[4.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extensions ['cmake', 'python']
+[4.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extension 'cmake'
+[4.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extension 'python'
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extensions ['python_setup_py']
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws) by extension 'python_setup_py'
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[4.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/build) by extension 'ignore'
+[4.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/build) ignored
+[4.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[4.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/install) by extension 'ignore'
+[4.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/install) ignored
+[4.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[4.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/log) by extension 'ignore'
+[4.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/log) ignored
+[4.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[4.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extension 'ignore'
+[4.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extension 'ignore_ament_install'
+[4.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extensions ['colcon_pkg']
+[4.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extension 'colcon_pkg'
+[4.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extensions ['colcon_meta']
+[4.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extension 'colcon_meta'
+[4.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extensions ['ros']
+[4.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extension 'ros'
+[4.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extensions ['cmake', 'python']
+[4.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extension 'cmake'
+[4.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extension 'python'
+[4.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extensions ['python_setup_py']
+[4.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src) by extension 'python_setup_py'
+[4.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[4.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extension 'ignore'
+[4.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extension 'ignore_ament_install'
+[4.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extensions ['colcon_pkg']
+[4.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extension 'colcon_pkg'
+[4.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extensions ['colcon_meta']
+[4.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extension 'colcon_meta'
+[4.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extensions ['ros']
+[4.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_controller) by extension 'ros'
+[4.613s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dinhcuong/arm_ws/src/arduinobot_controller' with type 'ros.ament_cmake' and name 'arduinobot_controller'
+[4.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extensions ['ignore', 'ignore_ament_install']
+[4.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extension 'ignore'
+[4.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extension 'ignore_ament_install'
+[4.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extensions ['colcon_pkg']
+[4.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extension 'colcon_pkg'
+[4.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extensions ['colcon_meta']
+[4.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extension 'colcon_meta'
+[4.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extensions ['ros']
+[4.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arduinobot_description) by extension 'ros'
+[4.617s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dinhcuong/arm_ws/src/arduinobot_description' with type 'ros.ament_cmake' and name 'arduinobot_description'
+[4.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extensions ['ignore', 'ignore_ament_install']
+[4.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extension 'ignore'
+[4.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extension 'ignore_ament_install'
+[4.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extensions ['colcon_pkg']
+[4.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extension 'colcon_pkg'
+[4.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extensions ['colcon_meta']
+[4.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extension 'colcon_meta'
+[4.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extensions ['ros']
+[4.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1) by extension 'ros'
+[4.621s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dinhcuong/arm_ws/src/arm_mark1' with type 'ros.ament_cmake' and name 'arm_mark1'
+[4.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extensions ['ignore', 'ignore_ament_install']
+[4.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extension 'ignore'
+[4.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extension 'ignore_ament_install'
+[4.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extensions ['colcon_pkg']
+[4.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extension 'colcon_pkg'
+[4.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extensions ['colcon_meta']
+[4.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extension 'colcon_meta'
+[4.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extensions ['ros']
+[4.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_controller) by extension 'ros'
+[4.625s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dinhcuong/arm_ws/src/arm_mark1_controller' with type 'ros.ament_cmake' and name 'arm_mark1_controller'
+[4.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extensions ['ignore', 'ignore_ament_install']
+[4.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extension 'ignore'
+[4.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extension 'ignore_ament_install'
+[4.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extensions ['colcon_pkg']
+[4.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extension 'colcon_pkg'
+[4.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extensions ['colcon_meta']
+[4.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extension 'colcon_meta'
+[4.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extensions ['ros']
+[4.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/arm_mark1_moveit) by extension 'ros'
+[4.629s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dinhcuong/arm_ws/src/arm_mark1_moveit' with type 'ros.ament_cmake' and name 'arm_mark1_moveit'
+[4.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extension 'ignore'
+[4.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extension 'ignore_ament_install'
+[4.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extensions ['colcon_pkg']
+[4.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extension 'colcon_pkg'
+[4.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extensions ['colcon_meta']
+[4.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extension 'colcon_meta'
+[4.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extensions ['ros']
+[4.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/custom_msgs) by extension 'ros'
+[4.636s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dinhcuong/arm_ws/src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[4.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extensions ['ignore', 'ignore_ament_install']
+[4.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extension 'ignore'
+[4.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extension 'ignore_ament_install'
+[4.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extensions ['colcon_pkg']
+[4.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extension 'colcon_pkg'
+[4.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extensions ['colcon_meta']
+[4.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extension 'colcon_meta'
+[4.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extensions ['ros']
+[4.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dinhcuong/arm_ws/src/server_python) by extension 'ros'
+[4.641s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dinhcuong/arm_ws/src/server_python' with type 'ros.ament_python' and name 'server_python'
+[4.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

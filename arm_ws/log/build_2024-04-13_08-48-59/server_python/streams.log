@@ -1,0 +1,24 @@
+[1.149s] Invoking command in '/home/dinhcuong/arm_ws/src/server_python': AMENT_PREFIX_PATH=/home/dinhcuong/arm_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dinhcuong/arm_ws/install/custom_msgs LD_LIBRARY_PATH=/home/dinhcuong/arm_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dinhcuong/arm_ws/build/server_python/prefix_override:/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages:/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_python build --build-base /home/dinhcuong/arm_ws/build/server_python/build install --record /home/dinhcuong/arm_ws/build/server_python/install.log --single-version-externally-managed
+[1.646s] running egg_info
+[1.648s] writing ../../build/server_python/server_python.egg-info/PKG-INFO
+[1.649s] writing dependency_links to ../../build/server_python/server_python.egg-info/dependency_links.txt
+[1.649s] writing entry points to ../../build/server_python/server_python.egg-info/entry_points.txt
+[1.650s] writing requirements to ../../build/server_python/server_python.egg-info/requires.txt
+[1.650s] writing top-level names to ../../build/server_python/server_python.egg-info/top_level.txt
+[1.654s] reading manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+[1.657s] writing manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+[1.657s] running build
+[1.657s] running build_py
+[1.661s] running install
+[1.661s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.662s]   warnings.warn(
+[1.662s] running install_lib
+[1.674s] running install_data
+[1.675s] running install_egg_info
+[1.678s] removing '/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python-0.0.0-py3.10.egg-info' (and everything under it)
+[1.678s] Copying ../../build/server_python/server_python.egg-info to /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python-0.0.0-py3.10.egg-info
+[1.680s] running install_scripts
+[1.721s] Installing client script to /home/dinhcuong/arm_ws/install/server_python/lib/server_python
+[1.733s] Installing server script to /home/dinhcuong/arm_ws/install/server_python/lib/server_python
+[1.733s] writing list of installed files to '/home/dinhcuong/arm_ws/build/server_python/install.log'
+[1.805s] Invoked command in '/home/dinhcuong/arm_ws/src/server_python' returned '0': AMENT_PREFIX_PATH=/home/dinhcuong/arm_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dinhcuong/arm_ws/install/custom_msgs LD_LIBRARY_PATH=/home/dinhcuong/arm_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dinhcuong/arm_ws/build/server_python/prefix_override:/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages:/home/dinhcuong/arm_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_python build --build-base /home/dinhcuong/arm_ws/build/server_python/build install --record /home/dinhcuong/arm_ws/build/server_python/install.log --single-version-externally-managed

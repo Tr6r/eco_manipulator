@@ -1,0 +1,4 @@
+srv/AddVariable.idl
+srv/AddVariable.srv
+srv/AddVariable_Request.msg
+srv/AddVariable_Response.msg

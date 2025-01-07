@@ -1,0 +1,1 @@
+/home/dinhcuong/arm_ws/src/arm_mark1/launch/display_rviz2.launch.py

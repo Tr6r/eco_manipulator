@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/server_python/server_python.egg-info
+writing ../../build/server_python/server_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/server_python/server_python.egg-info/dependency_links.txt
+writing entry points to ../../build/server_python/server_python.egg-info/entry_points.txt
+writing requirements to ../../build/server_python/server_python.egg-info/requires.txt
+writing top-level names to ../../build/server_python/server_python.egg-info/top_level.txt
+writing manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+reading manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/server_python/server_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dinhcuong/arm_ws/build/server_python/build
+creating /home/dinhcuong/arm_ws/build/server_python/build/lib
+creating /home/dinhcuong/arm_ws/build/server_python/build/lib/server_python
+copying server_python/__init__.py -> /home/dinhcuong/arm_ws/build/server_python/build/lib/server_python
+copying server_python/server.py -> /home/dinhcuong/arm_ws/build/server_python/build/lib/server_python
+running install
+running install_lib
+creating /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python
+copying /home/dinhcuong/arm_ws/build/server_python/build/lib/server_python/__init__.py -> /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python
+copying /home/dinhcuong/arm_ws/build/server_python/build/lib/server_python/server.py -> /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python
+byte-compiling /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python/server.py to server.cpython-310.pyc
+running install_data
+creating /home/dinhcuong/arm_ws/install/server_python/share
+creating /home/dinhcuong/arm_ws/install/server_python/share/ament_index
+creating /home/dinhcuong/arm_ws/install/server_python/share/ament_index/resource_index
+creating /home/dinhcuong/arm_ws/install/server_python/share/ament_index/resource_index/packages
+copying resource/server_python -> /home/dinhcuong/arm_ws/install/server_python/share/ament_index/resource_index/packages
+creating /home/dinhcuong/arm_ws/install/server_python/share/server_python
+copying package.xml -> /home/dinhcuong/arm_ws/install/server_python/share/server_python
+running install_egg_info
+Copying ../../build/server_python/server_python.egg-info to /home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages/server_python-0.0.0-py3.10.egg-info
+running install_scripts
+Installing server script to /home/dinhcuong/arm_ws/install/server_python/lib/server_python
+writing list of installed files to '/home/dinhcuong/arm_ws/build/server_python/install.log'

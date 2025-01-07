@@ -1,0 +1,573 @@
+[1.309s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.309s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f351479a860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f351479a650>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f351479a650>>)
+[1.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.358s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dinhcuong/arm_ws'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ignore'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ignore_ament_install'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['colcon_pkg']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'colcon_pkg'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['colcon_meta']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'colcon_meta'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['ros']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ros'
+[1.376s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_controller' with type 'ros.ament_cmake' and name 'arduinobot_controller'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ignore'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ignore_ament_install'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['colcon_pkg']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'colcon_pkg'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['colcon_meta']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'colcon_meta'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['ros']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ros'
+[1.377s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_description' with type 'ros.ament_cmake' and name 'arduinobot_description'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ignore'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ignore_ament_install'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['colcon_pkg']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'colcon_pkg'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['colcon_meta']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'colcon_meta'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['ros']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ros'
+[1.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_moveit' with type 'ros.ament_cmake' and name 'arduinobot_moveit'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extensions ['ignore', 'ignore_ament_install']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extension 'ignore'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extension 'ignore_ament_install'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extensions ['colcon_pkg']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extension 'colcon_pkg'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extensions ['colcon_meta']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extension 'colcon_meta'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extensions ['ros']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1) by extension 'ros'
+[1.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_mark1' with type 'ros.ament_cmake' and name 'arm_mark1'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extension 'ignore'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extension 'ignore_ament_install'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extensions ['colcon_pkg']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extension 'colcon_pkg'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extensions ['colcon_meta']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extension 'colcon_meta'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extensions ['ros']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_controller) by extension 'ros'
+[1.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_mark1_controller' with type 'ros.ament_cmake' and name 'arm_mark1_controller'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extensions ['ignore', 'ignore_ament_install']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extension 'ignore'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extension 'ignore_ament_install'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extensions ['colcon_pkg']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extension 'colcon_pkg'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extensions ['colcon_meta']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extension 'colcon_meta'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extensions ['ros']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_mark1_moveit) by extension 'ros'
+[1.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_mark1_moveit' with type 'ros.ament_cmake' and name 'arm_mark1_moveit'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore_ament_install'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_pkg']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_pkg'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_meta']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_meta'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ros']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ros'
+[1.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extensions ['ignore', 'ignore_ament_install']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extension 'ignore'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extension 'ignore_ament_install'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extensions ['colcon_pkg']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extension 'colcon_pkg'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extensions ['colcon_meta']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extension 'colcon_meta'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extensions ['ros']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_python) by extension 'ros'
+[1.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/server_python' with type 'ros.ament_python' and name 'server_python'
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.529s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/dinhcuong/arm_ws/install
+[1.547s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 355 installed packages in /opt/ros/humble
+[1.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_args' from command line to 'None'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_target' from command line to 'None'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.661s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dinhcuong/arm_ws/build/arduinobot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dinhcuong/arm_ws/install/arduinobot_controller', 'merge_install': False, 'path': '/home/dinhcuong/arm_ws/src/arduinobot_controller', 'symlink_install': False, 'test_result_base': None}
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_args' from command line to 'None'
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_target' from command line to 'None'
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.680s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.680s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dinhcuong/arm_ws/build/arduinobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dinhcuong/arm_ws/install/arduinobot_description', 'merge_install': False, 'path': '/home/dinhcuong/arm_ws/src/arduinobot_description', 'symlink_install': False, 'test_result_base': None}
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_args' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_target' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.702s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dinhcuong/arm_ws/build/arduinobot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dinhcuong/arm_ws/install/arduinobot_moveit', 'merge_install': False, 'path': '/home/dinhcuong/arm_ws/src/arduinobot_moveit', 'symlink_install': False, 'test_result_base': None}
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'cmake_args' from command line to 'None'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'cmake_target' from command line to 'None'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'cmake_clean_cache' from command line to 'False'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'cmake_clean_first' from command line to 'False'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'cmake_force_configure' from command line to 'False'
+[1.720s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'ament_cmake_args' from command line to 'None'
+[1.720s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'catkin_cmake_args' from command line to 'None'
+[1.720s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.720s] DEBUG:colcon.colcon_core.verb:Building package 'arm_mark1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dinhcuong/arm_ws/build/arm_mark1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dinhcuong/arm_ws/install/arm_mark1', 'merge_install': False, 'path': '/home/dinhcuong/arm_ws/src/arm_mark1', 'symlink_install': False, 'test_result_base': None}
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'cmake_args' from command line to 'None'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'cmake_target' from command line to 'None'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.737s] DEBUG:colcon.colcon_core.verb:Building package 'arm_mark1_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dinhcuong/arm_ws/build/arm_mark1_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dinhcuong/arm_ws/install/arm_mark1_controller', 'merge_install': False, 'path': '/home/dinhcuong/arm_ws/src/arm_mark1_controller', 'symlink_install': False, 'test_result_base': None}
+[1.753s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'cmake_args' from command line to 'None'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'cmake_target' from command line to 'None'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'arm_mark1_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.754s] DEBUG:colcon.colcon_core.verb:Building package 'arm_mark1_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dinhcuong/arm_ws/build/arm_mark1_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dinhcuong/arm_ws/install/arm_mark1_moveit', 'merge_install': False, 'path': '/home/dinhcuong/arm_ws/src/arm_mark1_moveit', 'symlink_install': False, 'test_result_base': None}
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_args' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.771s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.771s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dinhcuong/arm_ws/build/custom_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dinhcuong/arm_ws/install/custom_msgs', 'merge_install': False, 'path': '/home/dinhcuong/arm_ws/src/custom_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'cmake_args' from command line to 'None'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'cmake_target' from command line to 'None'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'cmake_clean_cache' from command line to 'False'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'cmake_clean_first' from command line to 'False'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'cmake_force_configure' from command line to 'False'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'ament_cmake_args' from command line to 'None'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'catkin_cmake_args' from command line to 'None'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'server_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.789s] DEBUG:colcon.colcon_core.verb:Building package 'server_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dinhcuong/arm_ws/build/server_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dinhcuong/arm_ws/install/server_python', 'merge_install': False, 'path': '/home/dinhcuong/arm_ws/src/server_python', 'symlink_install': False, 'test_result_base': None}
+[1.811s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dinhcuong/arm_ws/src/custom_msgs' with build type 'ament_cmake'
+[1.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dinhcuong/arm_ws/src/custom_msgs'
+[1.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.908s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dinhcuong/arm_ws/src/arduinobot_controller' with build type 'ament_cmake'
+[1.908s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dinhcuong/arm_ws/src/arduinobot_controller'
+[1.934s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.934s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.981s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dinhcuong/arm_ws/src/arduinobot_description' with build type 'ament_cmake'
+[1.981s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dinhcuong/arm_ws/src/arduinobot_description'
+[1.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.044s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dinhcuong/arm_ws/src/arduinobot_moveit' with build type 'ament_cmake'
+[2.045s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dinhcuong/arm_ws/src/arduinobot_moveit'
+[2.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.060s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.108s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dinhcuong/arm_ws/src/arm_mark1' with build type 'ament_cmake'
+[2.108s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dinhcuong/arm_ws/src/arm_mark1'
+[2.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.123s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dinhcuong/arm_ws/src/arm_mark1_controller' with build type 'ament_cmake'
+[2.179s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dinhcuong/arm_ws/src/arm_mark1_controller'
+[2.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dinhcuong/arm_ws/src/arm_mark1_moveit' with build type 'ament_cmake'
+[2.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dinhcuong/arm_ws/src/arm_mark1_moveit'
+[2.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/custom_msgs -- -j8 -l8
+[2.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arduinobot_controller -- -j8 -l8
+[2.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arduinobot_description -- -j8 -l8
+[2.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arduinobot_moveit -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arduinobot_moveit
+[2.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1 -- -j8 -l8
+[2.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_controller -- -j8 -l8
+[2.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_moveit -- -j8 -l8
+[2.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arduinobot_controller -- -j8 -l8
+[2.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arduinobot_description -- -j8 -l8
+[2.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_controller -- -j8 -l8
+[2.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1 -- -j8 -l8
+[2.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arduinobot_controller
+[2.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_moveit -- -j8 -l8
+[2.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_controller
+[2.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arduinobot_description
+[2.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_controller)
+[2.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arduinobot_controller
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller' for CMake module files
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller' for CMake config files
+[2.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_controller', 'cmake_prefix_path')
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.ps1'
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.dsv'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.sh'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller/bin'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller/lib/pkgconfig/arduinobot_controller.pc'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller/lib/python3.10/site-packages'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller/bin'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.ps1'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv'
+[2.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.sh'
+[2.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.bash'
+[2.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.zsh'
+[2.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arduinobot_controller/share/colcon-core/packages/arduinobot_controller)
+[2.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1
+[2.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_mark1_controller)
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_controller
+[2.571s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller' for CMake module files
+[2.571s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller' for CMake config files
+[2.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_mark1_controller', 'cmake_prefix_path')
+[2.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/hook/cmake_prefix_path.ps1'
+[2.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/hook/cmake_prefix_path.dsv'
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/hook/cmake_prefix_path.sh'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller/bin'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller/lib/pkgconfig/arm_mark1_controller.pc'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller/lib/python3.10/site-packages'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller/bin'
+[2.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.ps1'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.dsv'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.sh'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.bash'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.zsh'
+[2.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/colcon-core/packages/arm_mark1_controller)
+[2.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_description)
+[2.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arduinobot_description
+[2.643s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description' for CMake module files
+[2.644s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description' for CMake config files
+[2.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_description', 'cmake_prefix_path')
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.ps1'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.dsv'
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.sh'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description/bin'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description/lib/pkgconfig/arduinobot_description.pc'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description/lib/python3.10/site-packages'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description/bin'
+[2.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.ps1'
+[2.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.dsv'
+[2.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.sh'
+[2.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.bash'
+[2.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.zsh'
+[2.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arduinobot_description/share/colcon-core/packages/arduinobot_description)
+[2.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_moveit
+[2.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_controller)
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller' for CMake module files
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller' for CMake config files
+[2.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_controller', 'cmake_prefix_path')
+[2.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.ps1'
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.dsv'
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.sh'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller/bin'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller/lib/pkgconfig/arduinobot_controller.pc'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller/lib/python3.10/site-packages'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_controller/bin'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.ps1'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.sh'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.bash'
+[2.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_controller/share/arduinobot_controller/package.zsh'
+[2.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arduinobot_controller/share/colcon-core/packages/arduinobot_controller)
+[2.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_mark1)
+[2.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1' for CMake module files
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1' for CMake config files
+[2.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_mark1', 'cmake_prefix_path')
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/hook/cmake_prefix_path.ps1'
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/hook/cmake_prefix_path.dsv'
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/hook/cmake_prefix_path.sh'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1/bin'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1/lib/pkgconfig/arm_mark1.pc'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1/lib/python3.10/site-packages'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1/bin'
+[2.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.ps1'
+[2.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.dsv'
+[2.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.sh'
+[2.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.bash'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.zsh'
+[2.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arm_mark1/share/colcon-core/packages/arm_mark1)
+[2.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_mark1_controller)
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller' for CMake module files
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller' for CMake config files
+[2.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_mark1_controller', 'cmake_prefix_path')
+[2.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/hook/cmake_prefix_path.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/hook/cmake_prefix_path.dsv'
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/hook/cmake_prefix_path.sh'
+[2.906s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller/bin'
+[2.906s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller/lib/pkgconfig/arm_mark1_controller.pc'
+[2.907s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller/lib/python3.10/site-packages'
+[2.907s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_controller/bin'
+[2.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.ps1'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.dsv'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.sh'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.bash'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.zsh'
+[2.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/colcon-core/packages/arm_mark1_controller)
+[2.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_mark1_moveit)
+[2.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_moveit
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit' for CMake module files
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit' for CMake config files
+[2.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_mark1_moveit', 'cmake_prefix_path')
+[2.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/hook/cmake_prefix_path.ps1'
+[2.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/hook/cmake_prefix_path.dsv'
+[2.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/hook/cmake_prefix_path.sh'
+[2.964s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/bin'
+[2.964s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/lib/pkgconfig/arm_mark1_moveit.pc'
+[2.965s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/lib/python3.10/site-packages'
+[2.965s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/bin'
+[2.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.ps1'
+[2.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.dsv'
+[2.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.sh'
+[2.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.bash'
+[2.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.zsh'
+[2.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/colcon-core/packages/arm_mark1_moveit)
+[3.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_description)
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description' for CMake module files
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description' for CMake config files
+[3.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_description', 'cmake_prefix_path')
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.ps1'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.dsv'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.sh'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description/bin'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description/lib/pkgconfig/arduinobot_description.pc'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description/lib/python3.10/site-packages'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_description/bin'
+[3.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.ps1'
+[3.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.dsv'
+[3.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.sh'
+[3.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.bash'
+[3.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_description/share/arduinobot_description/package.zsh'
+[3.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arduinobot_description/share/colcon-core/packages/arduinobot_description)
+[3.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/custom_msgs -- -j8 -l8
+[3.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_mark1)
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1' for CMake module files
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1' for CMake config files
+[3.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_mark1', 'cmake_prefix_path')
+[3.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/hook/cmake_prefix_path.ps1'
+[3.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/hook/cmake_prefix_path.dsv'
+[3.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/hook/cmake_prefix_path.sh'
+[3.107s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1/bin'
+[3.107s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1/lib/pkgconfig/arm_mark1.pc'
+[3.107s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1/lib/python3.10/site-packages'
+[3.107s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1/bin'
+[3.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.ps1'
+[3.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.dsv'
+[3.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.sh'
+[3.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.bash'
+[3.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1/share/arm_mark1/package.zsh'
+[3.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arm_mark1/share/colcon-core/packages/arm_mark1)
+[3.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arduinobot_moveit -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arduinobot_moveit
+[3.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arduinobot_moveit -- -j8 -l8
+[3.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_mark1_moveit)
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit' for CMake module files
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit' for CMake config files
+[3.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_mark1_moveit', 'cmake_prefix_path')
+[3.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/hook/cmake_prefix_path.ps1'
+[3.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/hook/cmake_prefix_path.dsv'
+[3.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/hook/cmake_prefix_path.sh'
+[3.177s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/bin'
+[3.177s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/lib/pkgconfig/arm_mark1_moveit.pc'
+[3.178s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/lib/python3.10/site-packages'
+[3.178s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/bin'
+[3.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.ps1'
+[3.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.dsv'
+[3.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.sh'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.bash'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.zsh'
+[3.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/colcon-core/packages/arm_mark1_moveit)
+[3.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/custom_msgs
+[3.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arduinobot_moveit -- -j8 -l8
+[3.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arduinobot_moveit
+[3.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_moveit)
+[3.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arduinobot_moveit
+[3.253s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit' for CMake module files
+[3.253s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit' for CMake config files
+[3.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_moveit', 'cmake_prefix_path')
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.ps1'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.dsv'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.sh'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit/bin'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit/lib/pkgconfig/arduinobot_moveit.pc'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit/lib/python3.10/site-packages'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit/bin'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.ps1'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.dsv'
+[3.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.sh'
+[3.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.bash'
+[3.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.zsh'
+[3.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/colcon-core/packages/arduinobot_moveit)
+[3.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[3.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/custom_msgs
+[3.307s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs' for CMake module files
+[3.308s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs' for CMake config files
+[3.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[3.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[3.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[3.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[3.325s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/lib'
+[3.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[3.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[3.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[3.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[3.342s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/bin'
+[3.342s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/lib/python3.10/site-packages'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/bin'
+[3.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.ps1'
+[3.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.dsv'
+[3.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.sh'
+[3.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.bash'
+[3.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.zsh'
+[3.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[3.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_moveit)
+[3.395s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit' for CMake module files
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit' for CMake config files
+[3.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_moveit', 'cmake_prefix_path')
+[3.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.ps1'
+[3.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.dsv'
+[3.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.sh'
+[3.413s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit/bin'
+[3.413s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit/lib/pkgconfig/arduinobot_moveit.pc'
+[3.413s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit/lib/python3.10/site-packages'
+[3.413s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/arduinobot_moveit/bin'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.ps1'
+[3.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.dsv'
+[3.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.sh'
+[3.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.bash'
+[3.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.zsh'
+[3.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/arduinobot_moveit/share/colcon-core/packages/arduinobot_moveit)
+[3.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[3.463s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs' for CMake module files
+[3.463s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs' for CMake config files
+[3.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[3.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[3.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[3.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/lib'
+[3.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[3.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[3.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/bin'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/lib/python3.10/site-packages'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/custom_msgs/bin'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.ps1'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.dsv'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.sh'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.bash'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/custom_msgs/share/custom_msgs/package.zsh'
+[3.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[3.515s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dinhcuong/arm_ws/src/server_python' with build type 'ament_python'
+[3.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('server_python', 'ament_prefix_path')
+[3.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/server_python/share/server_python/hook/ament_prefix_path.ps1'
+[3.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/server_python/share/server_python/hook/ament_prefix_path.dsv'
+[3.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/server_python/share/server_python/hook/ament_prefix_path.sh'
+[3.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.829s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dinhcuong/arm_ws/src/server_python'
+[3.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dinhcuong/arm_ws/src/server_python': PYTHONPATH=/home/dinhcuong/arm_ws/build/server_python/prefix_override:/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_python build --build-base /home/dinhcuong/arm_ws/build/server_python/build install --record /home/dinhcuong/arm_ws/build/server_python/install.log --single-version-externally-managed
+[4.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dinhcuong/arm_ws/src/server_python' returned '0': PYTHONPATH=/home/dinhcuong/arm_ws/build/server_python/prefix_override:/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_python build --build-base /home/dinhcuong/arm_ws/build/server_python/build install --record /home/dinhcuong/arm_ws/build/server_python/install.log --single-version-externally-managed
+[4.495s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/server_python' for CMake module files
+[4.496s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/server_python' for CMake config files
+[4.496s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/server_python/lib'
+[4.496s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/server_python/bin'
+[4.496s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/server_python/lib/pkgconfig/server_python.pc'
+[4.497s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/server_python/lib/python3.10/site-packages'
+[4.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('server_python', 'pythonpath')
+[4.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/server_python/share/server_python/hook/pythonpath.ps1'
+[4.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dinhcuong/arm_ws/install/server_python/share/server_python/hook/pythonpath.dsv'
+[4.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dinhcuong/arm_ws/install/server_python/share/server_python/hook/pythonpath.sh'
+[4.512s] Level 1:colcon.colcon_core.environment:checking '/home/dinhcuong/arm_ws/install/server_python/bin'
+[4.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(server_python)
+[4.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/server_python/share/server_python/package.ps1'
+[4.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dinhcuong/arm_ws/install/server_python/share/server_python/package.dsv'
+[4.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/server_python/share/server_python/package.sh'
+[4.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/server_python/share/server_python/package.bash'
+[4.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/dinhcuong/arm_ws/install/server_python/share/server_python/package.zsh'
+[4.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dinhcuong/arm_ws/install/server_python/share/colcon-core/packages/server_python)
+[4.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.529s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.548s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.556s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.570s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dinhcuong/arm_ws/install/local_setup.ps1'
+[4.571s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dinhcuong/arm_ws/install/_local_setup_util_ps1.py'
+[4.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dinhcuong/arm_ws/install/setup.ps1'
+[4.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dinhcuong/arm_ws/install/local_setup.sh'
+[4.588s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dinhcuong/arm_ws/install/_local_setup_util_sh.py'
+[4.588s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dinhcuong/arm_ws/install/setup.sh'
+[4.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dinhcuong/arm_ws/install/local_setup.bash'
+[4.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dinhcuong/arm_ws/install/setup.bash'
+[4.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dinhcuong/arm_ws/install/local_setup.zsh'
+[4.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dinhcuong/arm_ws/install/setup.zsh'

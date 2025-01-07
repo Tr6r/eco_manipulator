@@ -1,0 +1,17 @@
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/config/arm_controller.yaml
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/launch/arm_controller.launch.py
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/ament_index/resource_index/package_run_dependencies/arm_mark1_controller
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/ament_index/resource_index/parent_prefix_path/arm_mark1_controller
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/environment/ament_prefix_path.sh
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/environment/ament_prefix_path.dsv
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/environment/path.sh
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/environment/path.dsv
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/local_setup.bash
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/local_setup.sh
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/local_setup.zsh
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/local_setup.dsv
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.dsv
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/ament_index/resource_index/packages/arm_mark1_controller
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/cmake/arm_mark1_controllerConfig.cmake
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/cmake/arm_mark1_controllerConfig-version.cmake
+/home/dinhcuong/arm_ws/install/arm_mark1_controller/share/arm_mark1_controller/package.xml

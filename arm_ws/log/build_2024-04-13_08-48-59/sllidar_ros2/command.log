@@ -1,0 +1,6 @@
+Invoking command in '/home/dinhcuong/arm_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/sllidar_ros2
+Invoked command in '/home/dinhcuong/arm_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/sllidar_ros2
+Invoking command in '/home/dinhcuong/arm_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/sllidar_ros2 -- -j8 -l8
+Invoked command in '/home/dinhcuong/arm_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/sllidar_ros2 -- -j8 -l8
+Invoking command in '/home/dinhcuong/arm_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/sllidar_ros2
+Invoked command in '/home/dinhcuong/arm_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/sllidar_ros2

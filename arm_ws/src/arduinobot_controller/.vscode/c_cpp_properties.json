@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dinhcuong/arm_ws/install/custom_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/dinhcuong/arm_ws/src/arduinobot_controller/include/**",
+        "/home/dinhcuong/arm_ws/src/arduinobot_description/include/**",
+        "/home/dinhcuong/arm_ws/src/arm_mark1/include/**",
+        "/home/dinhcuong/arm_ws/src/arm_mark1_controller/include/**",
+        "/home/dinhcuong/arm_ws/src/arm_mark1_moveit/include/**",
+        "/home/dinhcuong/arm_ws/src/custom_msgs/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,1 @@
+/home/dinhcuong/arm_ws/src/arduinobot_moveit/launch/moveit.launch.py

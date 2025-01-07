@@ -1,0 +1,5 @@
+arm:
+  kinematics_solvers: kdl_kinematics_plugin/KDLKinematicsPlugin
+  kinematics_solvers_search_resolution: 0.005
+  kinematics_solvers_timeout: 0.005
+  position_only_ik: true

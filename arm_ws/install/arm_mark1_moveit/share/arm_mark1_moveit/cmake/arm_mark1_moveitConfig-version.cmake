@@ -1,0 +1,1 @@
+/home/dinhcuong/arm_ws/build/arm_mark1_moveit/ament_cmake_core/arm_mark1_moveitConfig-version.cmake

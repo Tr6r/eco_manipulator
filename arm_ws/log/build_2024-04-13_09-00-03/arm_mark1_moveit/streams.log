@@ -1,0 +1,41 @@
+[0.152s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arm_mark1_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arm_mark1_moveit
+[0.595s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.595s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.595s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.595s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.596s] -- Added test 'lint_cmake' to check CMake code style
+[0.596s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.596s] -- Added test 'xmllint' to check XML markup files
+[0.596s] -- Configuring done
+[0.597s] -- Generating done
+[0.602s] -- Build files have been written to: /home/dinhcuong/arm_ws/build/arm_mark1_moveit
+[0.609s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake /home/dinhcuong/arm_ws/src/arm_mark1_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dinhcuong/arm_ws/install/arm_mark1_moveit
+[0.610s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_moveit -- -j8 -l8
+[0.674s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --build /home/dinhcuong/arm_ws/build/arm_mark1_moveit -- -j8 -l8
+[0.710s] Invoking command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_moveit
+[0.724s] -- Install configuration: ""
+[0.724s] -- Execute custom install script
+[0.724s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/launch/moveit.launch.py
+[0.736s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/config/arm.srdf
+[0.751s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/config/initial_positions.yaml
+[0.764s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/config/joint_limits.yaml
+[0.777s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/config/kinematics.yaml
+[0.790s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/config/moveit.rviz
+[0.803s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/config/moveit_controllers.yaml
+[0.816s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/config/pilz_cartesian_limits.yaml
+[0.829s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/ament_index/resource_index/package_run_dependencies/arm_mark1_moveit
+[0.842s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/ament_index/resource_index/parent_prefix_path/arm_mark1_moveit
+[0.855s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/environment/ament_prefix_path.sh
+[0.870s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/environment/ament_prefix_path.dsv
+[0.884s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/environment/path.sh
+[0.896s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/environment/path.dsv
+[0.909s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/local_setup.bash
+[0.922s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/local_setup.sh
+[0.935s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/local_setup.zsh
+[0.948s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/local_setup.dsv
+[0.962s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.dsv
+[0.974s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/ament_index/resource_index/packages/arm_mark1_moveit
+[0.986s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/cmake/arm_mark1_moveitConfig.cmake
+[0.999s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/cmake/arm_mark1_moveitConfig-version.cmake
+[1.010s] -- Symlinking: /home/dinhcuong/arm_ws/install/arm_mark1_moveit/share/arm_mark1_moveit/package.xml
+[1.237s] Invoked command in '/home/dinhcuong/arm_ws/build/arm_mark1_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinhcuong/arm_ws/install/test_serverws:/home/dinhcuong/arm_ws/install/server_python:/opt/ros/humble /usr/bin/cmake --install /home/dinhcuong/arm_ws/build/arm_mark1_moveit
