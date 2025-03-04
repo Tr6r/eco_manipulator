@@ -17,10 +17,20 @@
  */
 
 #include <stdint.h>
-#include <../drivers/Inc/stm32f411ce.h>
-
+#include "stm32f411ce.h"
+#include "gpio_driver.h"
+//#include <../drivers/Inc/gpio_driver.h>
 int main(void)
 {
+	GpioHandle *gpio;
+	gpio->X = GPIOD;
+	gpio->Config.Mode = OUTPUT;
+	gpio->Config.Pin = 12;
+
+
+	 InitGpio(gpio);
+
     /* Loop forever */
 	for(;;);
+	TurnOn(gpio);
 }
