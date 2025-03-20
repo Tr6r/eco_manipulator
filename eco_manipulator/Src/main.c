@@ -15,22 +15,65 @@
  *
  ******************************************************************************
  */
-
+#include <stdio.h>
 #include <stdint.h>
 #include "stm32f411ce.h"
 #include "gpio_driver.h"
-//#include <../drivers/Inc/gpio_driver.h>
-int main(void)
-{
-	GpioHandle *gpio;
-	gpio->X = GPIOD;
-	gpio->Config.Mode = OUTPUT;
-	gpio->Config.Pin = 12;
+#include <timer2_5_driver.h>
 
+#include "nvic_driver.h"
 
-	 InitGpio(gpio);
+static int count = 0;
+static int count1 = 0;
+//GPIO
+Gpio_Handle_t gpiod_12;
+Gpio_Handle_t gpiod_13;
+//TIMER
+Timer2_5_Handle_t timer2;
+Timer2_5_Handle_t timer3;
+//NVIC TIMER2
+NVIC_Handle_t pNVICHandle_Timer2;
+NVIC_Handle_t pNVICHandle_Timer3;
 
-    /* Loop forever */
-	for(;;);
-	TurnOn(gpio);
+void My_Timer2_Callback(void) {
+	if (count & 1) {
+		TurnOn(&gpiod_12);
+	} else {
+		TurnOff(&gpiod_12);
+	}
+	count += 1;
 }
+void My_Timer3_Callback(void) {
+	if (count1 & 1) {
+		TurnOn(&gpiod_13);
+	} else {
+		TurnOff(&gpiod_13);
+	}
+	count1 += 1;
+}
+int main(void) {
+	gpiod_12 = Gpio_CreateHandle(GPIOD, GPIO_PIN_12, OUTPUT, MEDIUM_SPEED,PUSH_PULL, NO_PUPD);
+	InitGpio(&gpiod_12);
+
+	gpiod_13 = Gpio_CreateHandle(GPIOD, GPIO_PIN_13, OUTPUT, MEDIUM_SPEED,PUSH_PULL, NO_PUPD);
+	InitGpio(&gpiod_13);
+
+	timer2 = Timer2_5_CreateHandle(TIMER2, Timer_no2, 15999, 999);
+	Init_Timer2_5(&timer2);
+
+	timer3 = Timer2_5_CreateHandle(TIMER3, Timer_no3, 15999, 499);
+	Init_Timer2_5(&timer3);
+
+	pNVICHandle_Timer2 = Create_NVICHandle(IRQn_Timer2, My_Timer2_Callback);
+	NVIC_EnableIRQ(&pNVICHandle_Timer2);
+
+	pNVICHandle_Timer3 = Create_NVICHandle(IRQn_Timer3, My_Timer3_Callback);
+	NVIC_EnableIRQ(&pNVICHandle_Timer3);
+
+	/* Loop forever */
+	for (;;) {
+//		Delay(&timer2);
+//		Delay(&timer2);
+	}
+}
+

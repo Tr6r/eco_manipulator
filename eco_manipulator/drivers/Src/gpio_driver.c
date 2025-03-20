@@ -9,21 +9,42 @@
 #include <stm32f411ce.h>
 #include <gpio_driver.h>
 
-void InitGpio(GpioHandle *gpio)
+
+Gpio_Handle_t Gpio_CreateHandle(Gpio_RegDef_t *port, uint8_t pin, uint8_t mode, uint8_t speed, uint8_t type, uint8_t pupd)
+{
+    Gpio_Handle_t gpio;
+    gpio.X = port;
+    gpio.Config.Pin = pin;
+    gpio.Config.Mode = mode;
+    gpio.Config.Speed = speed;
+    gpio.Config.Type = type;
+    gpio.Config.PUPD = pupd;
+    return gpio;
+}
+void InitGpio(Gpio_Handle_t *gpio)
 {
 
 	if (gpio->X == GPIOD)
 	{
-		RCC->RCC_AHB1ENR |= (1<<3);
+		GPIOD_PCLOCK_EN();
+		gpio->X->OSPEEDR |= (gpio->Config.Speed << (gpio->Config.Pin *2) );
+
 	}
 	if(gpio->Config.Mode == OUTPUT)
 	{
-		gpio->X->MODER |= (OUTPUT << (gpio->Config.Pin *2) );
+		gpio->X->OTYPER |= (gpio->Config.Type << gpio->Config.Pin  );
+		gpio->X->MODER |= (gpio->Config.Mode << (gpio->Config.Pin *2) );
 	}
 }
 
-void TurnOn(GpioHandle *gpio)
+void TurnOn(Gpio_Handle_t *gpio)
 {
-	gpio->X->ODR  |= (1 << gpio->Config.Pin);
+	gpio->X->ODR  |= (0b1 << gpio->Config.Pin);
 
 }
+void TurnOff(Gpio_Handle_t *gpio)
+{
+    gpio->X->ODR &= ~(0b1 << gpio->Config.Pin);
+}
+
+
